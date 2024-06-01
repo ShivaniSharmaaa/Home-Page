@@ -1,0 +1,160 @@
+#first{
+    position: sticky;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#Sale{
+    text-decoration: none;
+}
+
+#second{
+    position: sticky;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #fff;
+    z-index: 10;
+}
+
+#home{
+    font-size: 40px;
+}
+
+
+
+#fb{
+    border-radius: 50px;
+   margin-right: 5%;
+   margin-left: 10%;
+    background-color: #fff;
+    border-color: #d35400;
+    color:rgb(44, 41, 41);
+    font-weight: bold;
+}
+
+#fb:hover{
+    color:white;
+    background-color: rgb(10, 11, 28);
+    border-color:rgb(10, 11, 28);
+}
+
+#sb{
+    border-radius: 50px;
+    background-color:#e67e22;
+    border-color:#e67e22;
+    color: rgb(44, 41, 41);
+    font-weight: bold;
+
+}
+
+#sb:hover{
+    color:white;
+    background-color: rgb(10, 11, 28);
+    border-color: rgb(10, 11, 28);
+}
+
+#third{
+    z-index: 1;
+}
+
+#room{
+    display: none;
+   
+}
+
+.port:hover #room{
+    display: block;
+    width: 90vw;
+    position: absolute;
+    margin-left: -30vw;
+  
+   
+}
+
+#shops{
+    display:none;
+    
+}
+
+.shop:hover #shops{
+    display: block;
+    width: 200vw;
+    position: absolute;
+    margin-left: -30vw;
+    padding-right: 10vw;
+    overflow: hidden;
+}
+
+#works{
+    display:none;
+    
+}
+.work:hover #works{
+display: block;
+width: 90vw;
+position: absolute;
+margin-left: -20vw;
+margin-right: -50vw;
+padding-right: 15vw;
+
+}
+
+.work:hover #works img{
+    margin: 10vh;
+    height: 25vh;
+   
+     }
+.work:hover #works h4{
+      margin: 10vh;
+      margin-top: -5vh;
+       background-color: #fff;
+         }
+
+#slider{
+    
+        top: 20%;
+        position: absolute;    
+        white-space: nowrap;
+        padding: 1.2vw;
+        overflow: hidden;
+        height: 90%;
+        width: 100%;
+    
+        
+}
+
+.col-3{
+    background-color: white;
+}
+
+.slide{
+    height: 100%;
+    width: 100%;
+   display: inline-block;
+    animation-name: mobe;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mobe {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+
+}
+
+.jumbotron{
+    z-index: 5;
+    background-color: whitesmoke;
+}
+
+#jtext{
+    font-size: 30px;
+}
+
